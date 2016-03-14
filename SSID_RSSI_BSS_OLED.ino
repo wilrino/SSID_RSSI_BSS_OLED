@@ -42,7 +42,7 @@ uint8_t* BSSID;
 int32_t channel;
 bool isHidden; 
 uint8_t curBss;
-const char* SSID = "linksis54"; // change this to match your networks SSID
+const char* SSID = "<YOUR SSID HERE>"; // change this to match your networks SSID
 uint8_t prevRssi;
 
 void setup() {
