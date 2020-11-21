@@ -88,13 +88,13 @@ if (BSSID[5] != curBss){
   
   if (RSSI > -55) { 
     bars = 5;
-  } else if (RSSI < -55 & RSSI > -65) {
+  } else if (RSSI < -55 & RSSI >= -65) {
     bars = 4;
-  } else if (RSSI < -65 & RSSI > -70) {
+  } else if (RSSI < -65 & RSSI >= -70) {
     bars = 3;
-  } else if (RSSI < -70 & RSSI > -78) {
+  } else if (RSSI < -70 & RSSI >= -78) {
     bars = 2;
-  } else if (RSSI < -78 & RSSI > -82) {
+  } else if (RSSI < -78 & RSSI >= -82) {
     bars = 1;
   } else {
     bars = 0;
